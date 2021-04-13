@@ -1,5 +1,14 @@
 
 # 前言
+本项目运用python复现WIDAR2、WIDAR3的开源代码（MATLAB），并有所改进。
+参考网站：
+Zheng Yang 主页： http://tns.thss.tsinghua.edu.cn/~yangzheng/
+WIDAR2: http://tns.thss.tsinghua.edu.cn/wifiradar/index_chi.html#feature
+WIDAR3: http://tns.thss.tsinghua.edu.cn/widar3.0/
+环境搭建：
+https://blog.csdn.net/u014645508/article/details/81359409
+http://dhalperi.github.io/linux-80211n-csitool/
+https://wands.sg/research/wifi/AtherosCSI/#Overview
 
 
 数据采集工具csi_tool采集数据并保存为后缀.dat的数据文件，在csi_tool中提供一个c语言函数解析此文件。阅读了c语言的解析代码后发现，数据文件的组织方法与计网中数据十分相似，但略有不同。  
