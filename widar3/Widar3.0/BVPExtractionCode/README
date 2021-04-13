@@ -1,0 +1,4 @@
+1. Please setup experiment scenario according to the descriptions in our Widar3.0 paper;
+2. Collected raw CSI data should be stored in the /Data directory, naming format described on our website;
+3. Output BVP stored in the /BVP directory;
+4. Programme entry is generate_vs.mat;

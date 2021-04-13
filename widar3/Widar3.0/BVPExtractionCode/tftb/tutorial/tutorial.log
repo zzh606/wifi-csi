@@ -1,0 +1,51 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.18)  1 JUN 2017 14:47
+entering extended mode
+**./tutorial.tex
+(tutorial.tex
+LaTeX2e <2016/03/31>
+Babel <3.9q> and hyphenation patterns for 1 language(s) loaded.
+(C:\CTEX\MiKTeX\tex\latex\base\book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(C:\CTEX\MiKTeX\tex\latex\base\bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+
+! LaTeX Error: File `epsf.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.8 \input{epsf}
+                
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 228 strings out of 495237
+ 2416 string characters out of 3182727
+ 47885 words of memory out of 3000000
+ 3594 multiletter control sequences out of 15000+200000
+ 3938 words of font info for 15 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 22i,0n,19p,115b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
