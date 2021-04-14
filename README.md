@@ -1,6 +1,6 @@
 
 # 前言
-本项目运用python复现WIDAR2、WIDAR3的开源代码（MATLAB），并有所改进。    
+本项目运用python复现WIDAR2、WIDAR3的开源代码（MATLAB），并有所区别。    
 ## 参考网站：  
 Zheng Yang 主页： http://tns.thss.tsinghua.edu.cn/~yangzheng/  
 WIDAR2: http://tns.thss.tsinghua.edu.cn/wifiradar/index_chi.html#feature  
