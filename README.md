@@ -1,11 +1,11 @@
 
 # 前言
-本项目运用python复现WIDAR2、WIDAR3的开源代码（MATLAB），并有所改进。  
-参考网站：  
+本项目运用python复现WIDAR2、WIDAR3的开源代码（MATLAB），并有所改进。    
+## 参考网站：  
 Zheng Yang 主页： http://tns.thss.tsinghua.edu.cn/~yangzheng/  
 WIDAR2: http://tns.thss.tsinghua.edu.cn/wifiradar/index_chi.html#feature  
 WIDAR3: http://tns.thss.tsinghua.edu.cn/widar3.0/  
-环境搭建：  
+## 环境搭建：  
 https://blog.csdn.net/u014645508/article/details/81359409  
 http://dhalperi.github.io/linux-80211n-csitool/  
 https://wands.sg/research/wifi/AtherosCSI/#Overview  
@@ -13,11 +13,11 @@ https://wands.sg/research/wifi/AtherosCSI/#Overview
 
 
 
-****以下部分来自网络****  
+## ****以下部分来自网络****  
 
 数据采集工具csi_tool采集数据并保存为后缀.dat的数据文件，在csi_tool中提供一个c语言函数解析此文件。阅读了c语言的解析代码后发现，数据文件的组织方法与计网中数据十分相似，但略有不同。  
 
-# 数据格式
+## 数据格式
 
 总体上，整个文件仅由n个bfee组成，巧了，数据文件中应当包含有n个采样信息，这个bfee的意义不言而喻，就是和采样一一对应。  
 
@@ -55,7 +55,7 @@ subc的结构如下表所示：
 
 到这里，整个文件的数据结构都清楚了，开始试着用python来解析run-lxx.dat这个文件。
 
-# 文件解析
+## 文件解析
 
     
   示例：
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
 
 
-# 其他和总结
+## 其他和总结
 
 方法的返回两种结果：  
 bfee.dicts字段等同于read_bfee_file() 函数的返回的结果，适用于原来的处理步骤。  
