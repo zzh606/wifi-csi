@@ -1,7 +1,7 @@
 
 # 前言
 本项目运用python复现Widar2、Widar3的开源代码（MATLAB），并有所区别。 
-# 参考论文：
+## 参考论文：
 [1] Qian, Kun, et al. "Widar2. 0: Passive human tracking with a single wi-fi link." Proceedings of the 16th Annual International Conference on Mobile Systems, Applications, and Services. 2018.  
 [2] Zheng, Yue, et al. "Zero-effort cross-domain gesture recognition with Wi-Fi." Proceedings of the 17th Annual International Conference on Mobile Systems, Applications, and Services. 2019.
 ## 参考网站：  
