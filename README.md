@@ -1,14 +1,15 @@
 
-# 前言
+# 前言 README
 本项目运用python复现Widar2、Widar3的开源代码（MATLAB），并有所区别。 
-## 参考论文：
+This project aims to use python to repeat and verify the open-source MATLAB codes of Widar2 and Widar3. There are some differences to the MATLAB codes.  
+## 参考论文 Reference papers:
 [1] Qian, Kun, et al. "Widar2. 0: Passive human tracking with a single wi-fi link." Proceedings of the 16th Annual International Conference on Mobile Systems, Applications, and Services. 2018.  
 [2] Zheng, Yue, et al. "Zero-effort cross-domain gesture recognition with Wi-Fi." Proceedings of the 17th Annual International Conference on Mobile Systems, Applications, and Services. 2019.
-## 参考网站：  
+## 参考网站 Reference websites：  
 Zheng Yang 主页： http://tns.thss.tsinghua.edu.cn/~yangzheng/  
 WIDAR2: http://tns.thss.tsinghua.edu.cn/wifiradar/index_chi.html#feature  
 WIDAR3: http://tns.thss.tsinghua.edu.cn/widar3.0/  
-## 环境搭建：  
+## 环境搭建 How to set-up the environment：  
 https://blog.csdn.net/u014645508/article/details/81359409  
 http://dhalperi.github.io/linux-80211n-csitool/  
 https://wands.sg/research/wifi/AtherosCSI/#Overview  
@@ -16,7 +17,7 @@ https://wands.sg/research/wifi/AtherosCSI/#Overview
 
 
 
-* 以下部分来自网络  
+* 以下部分来自网络 The following is copied from others github 
 
 数据采集工具csi_tool采集数据并保存为后缀.dat的数据文件，在csi_tool中提供一个c语言函数解析此文件。阅读了c语言的解析代码后发现，数据文件的组织方法与计网中数据十分相似，但略有不同。  
 
