@@ -1,9 +1,7 @@
 
 # 前言 README
 本项目运用python复现Widar2、Widar3的开源代码（MATLAB），并有所区别。   
-This project aims to use python to repeat and verify the open-source MATLAB codes of Widar2 and Widar3. There are some differences to the MATLAB codes.  
-***另附编译后的Ubuntu内核，链接：https://pan.baidu.com/s/1CLrbKkWMos8rBtnEgRvDPw   提取码：jr4a   
-***Above link is the refered Ubuntu kernel.   
+This project aims to use python to repeat and verify the open-source MATLAB codes of Widar2 and Widar3. There are some differences to the MATLAB codes.    
 ## 参考论文 Reference papers:
 [1] Qian, Kun, et al. "Widar2. 0: Passive human tracking with a single wi-fi link." Proceedings of the 16th Annual International Conference on Mobile Systems, Applications, and Services. 2018.  
 [2] Zheng, Yue, et al. "Zero-effort cross-domain gesture recognition with Wi-Fi." Proceedings of the 17th Annual International Conference on Mobile Systems, Applications, and Services. 2019.
